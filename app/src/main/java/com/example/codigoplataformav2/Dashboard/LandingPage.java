@@ -36,7 +36,7 @@ public class LandingPage extends AppCompatActivity {
     RecyclerView.Adapter adapter;
     SeekBar overall, problemSolving, aptitude, oops, basic_programing;
     int
-            overallPercent = 50,
+            overallPercent = 100,
             problemSolvingPercent = 60,
             aptitudePercent = 40,
             oopsPercent = 70,
