@@ -28,6 +28,7 @@ public class LandingPage extends AppCompatActivity {
     // TODO (remove SeekBar's thumb offset if percent is 100% else put -5dp offset)
 
     DotsIndicator dotsIndicator;
+
     RadioGroup radioGroup;
     RadioButton stats,events;
     ActivityLandingPageBinding binding;
@@ -56,7 +57,7 @@ public class LandingPage extends AppCompatActivity {
         
         work_with_RecyclerView(rv_domain_section, R.id.recyclerview);
         work_with_seek_bars();
-        work_with_dotIndicator(dotsIndicator , R.id.dot_indicator_domain_section);
+//        work_with_dotIndicator(dotsIndicator , R.id.dot_indicator_domain_section);
         work_with_Radiobuttons(radioGroup, stats , events ,R.id.radio_group , R.id.stats , R.id.events);
 
     }
@@ -69,7 +70,7 @@ public class LandingPage extends AppCompatActivity {
 
 
     private void work_with_dotIndicator(DotsIndicator dotsIndicator , int id) {
-        dotsIndicator = (DotsIndicator) findViewById(id);
+//        dotsIndicator = (DotsIndicator) findViewById(id);
     }
 
     @SuppressLint("ClickableViewAccessibility")
